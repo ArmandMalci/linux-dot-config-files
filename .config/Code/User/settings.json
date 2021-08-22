@@ -1,0 +1,389 @@
+{
+  "explorer.sortOrder": "type",
+  "files.trimFinalNewlines": true,
+  "workbench.editor.highlightModifiedTabs": true,
+  "explorer.autoReveal": true,
+  "explorer.openEditors.visible": 0,
+  "explorer.compactFolders": false,
+  // Cursor
+  "editor.cursorStyle": "line",
+  "editor.cursorBlinking": "expand",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.overviewRulerBorder": false,
+  "editor.renderLineHighlight": "all",
+  "editor.fontWeight": "500",
+  "editor.colorDecorators": true,
+  "editor.minimap.enabled": false,
+  "editor.tabCompletion": "on",
+  "editor.glyphMargin": false,
+  "editor.parameterHints.enabled": true,
+  "editor.lineNumbers": "on",
+  "editor.linkedEditing": true,
+  "editor.suggestSelection": "first",
+  "editor.fontFamily": "CaskaydiaCove Nerd Font",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 16,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  "editor.matchBrackets": "always",
+  "editor.hover.enabled": true,
+  "editor.renderIndentGuides": false,
+  "editor.showFoldingControls": "mouseover",
+  "editor.find.seedSearchStringFromSelection": "always",
+  "editor.renderWhitespace": "none",
+  "editor.wordBasedSuggestions": false,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "javascript.suggest.names": true,
+  "breadcrumbs.enabled": true,
+  "workbench.editor.tabSizing": "shrink",
+  "workbench.editor.limit.enabled": false,
+  // "workbench.editor.limit.value": 10,
+  "files.defaultLanguage": "${activeEditorLanguage}",
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "workbench.sideBar.location": "left",
+  "extensions.ignoreRecommendations": true, // true for now
+  "files.exclude": {
+    ".history": true,
+    "**/.DS_Store": true,
+    "**/.hg": true,
+    "**/.svn": true,
+    "**/coverage": true,
+    "**/CVS": true
+  },
+  "workbench.editor.tabCloseButton": "off",
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.action.toggleActivityBarVisibility": true,
+  "window.title": "${rootName}",
+  // "window.title": "${rootName}${separator} ${activeEditorMedium}",
+  "javascript.validate.enable": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "explorer.confirmDragAndDrop": false,
+  "editor.renderControlCharacters": false,
+  "workbench.statusBar.visible": true,
+
+  // terminal
+  "terminal.integrated.fontFamily": "CaskaydiaCove Nerd Font Mono",
+  "terminal.integrated.rendererType": "dom",
+  "terminal.integrated.fontSize": 14,
+  "workbench.startupEditor": "newUntitledFile",
+  "explorer.confirmDelete": false,
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "workbench.colorTheme": "One Dark Pro",
+  "bracket-pair-colorizer-2.colors": [
+    "Gold",
+    "Orchid",
+    "LightSkyBlue",
+    "Salmon"
+  ],
+  "bracket-pair-colorizer-2.highlightActiveScope": true,
+  "bracket-pair-colorizer-2.activeScopeCSS": [
+    "borderStyle : solid",
+    "borderWidth : 1px",
+    "borderColor : {color}",
+    "opacity: 0.5"
+  ],
+  "bracket-pair-colorizer-2.showBracketsInGutter": true,
+  "bracket-pair-colorizer-2.showHorizontalScopeLine": true,
+  "bracket-pair-colorizer-2.unmatchedScopeColor": "Red",
+  "bracket-pair-colorizer-2.forceUniqueOpeningColor": true,
+  "bracket-pair-colorizer-2.showBracketsInRuler": true,
+
+  "bracket-pair-colorizer-2.scopeLineRelativePosition": true,
+  "bracket-pair-colorizer-2.scopeLineCSS": [
+    "borderStyle : solid",
+    "borderWidth : 2px",
+    "borderColor : {color}",
+    "opacity: 0.7"
+  ],
+  "tailwindCSS.emmetCompletions": true,
+
+  "cSpell.userWords": [
+    "Armands",
+    "Cascadia",
+    "Claped",
+    "Cleery",
+    "Consolas",
+    "Malci",
+    "Monokai",
+    "Ndrop",
+    "Pinterest",
+    "Plusor",
+    "Reactour",
+    "Townhomes",
+    "Workplan",
+    "Youtube",
+    "airtable",
+    "alacritty",
+    "and",
+    "antd",
+    "anticon",
+    "area",
+    "avenir",
+    "browserslist",
+    "c",
+    "caret",
+    "caskaydia",
+    "chartjs",
+    "commentable",
+    "data",
+    "dbaeumer",
+    "developer",
+    "down",
+    "esbenp",
+    "fragment",
+    "graphiql",
+    "ideatotalvalue",
+    "in",
+    "libqtile",
+    "linkedin",
+    "lots",
+    "mandi",
+    "mediumclone",
+    "mikro",
+    "monospace",
+    "naxxa",
+    "nestjs",
+    "noone",
+    "noopener",
+    "noreferrer",
+    "number",
+    "of",
+    "orm",
+    "ormconfig",
+    "possible",
+    "postgres",
+    "postgresql",
+    "preconnect",
+    "properties",
+    "pyproj",
+    "radiogroup",
+    "reduxjs",
+    "referrerpolicy",
+    "reupload",
+    "rgba",
+    "scroller",
+    "self",
+    "signout",
+    "split",
+    "style",
+    "sweetified",
+    "tags",
+    "todolist",
+    "todos",
+    "toscreen",
+    "townhome",
+    "truetype",
+    "typeorm",
+    "unmounts",
+    "user",
+    "utah",
+    "utctimestamp",
+    "uvicorn",
+    "vsintellicode",
+    "webmap"
+  ],
+  "tabnine.experimentalAutoImports": true,
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "todo-tree.general.tags": [
+    "BUG",
+    "HACK",
+    "FIXME",
+    "TODO",
+    "XXX",
+    "[ ]",
+    "[x]"
+  ],
+  "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+  "python.showStartPage": false,
+  "path-autocomplete.extensionOnImport": true,
+  "cSpell.enabledLanguageIds": [
+    "asciidoc",
+    "c",
+    "cpp",
+    "csharp",
+    "css",
+    "git-commit",
+    "go",
+    "graphql",
+    "handlebars",
+    "haskell",
+    "html",
+    "jade",
+    "java",
+    "javascript",
+    "javascriptreact",
+    "latex",
+    "less",
+    "markdown",
+    "php",
+    "plaintext",
+    "python",
+    "pug",
+    "restructuredtext",
+    "rust",
+    "scala",
+    "scss",
+    "text",
+    "typescript",
+    "typescriptreact",
+    "yaml",
+    "yml"
+  ],
+  "diffEditor.ignoreTrimWhitespace": false,
+
+  "workbench.editor.enablePreview": false,
+  "sync.gist": "e0763a032f17584640b1d370ac411f77",
+  "editor.suggest.filterGraceful": false,
+  "editor.snippetSuggestions": "top",
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/*/**": true
+  },
+  "workbench.tree.indent": 20,
+  "autoprefixer.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.suggest.insertMode": "replace",
+  "html.format.enable": true,
+  "html.format.preserveNewLines": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // Javascript
+  "javascript.suggest.completeFunctionCalls": true,
+  "typescript.suggest.completeFunctionCalls": true,
+  "typescript.autoClosingTags": true,
+  "[javascript]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+      // "source.organizeImports": true
+    },
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2
+  },
+  "[typescriptreact]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+      // "source.organizeImports": true
+    },
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2
+  },
+  // TypeScript
+  "[typescript]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+      // "source.organizeImports": true
+    },
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2
+  },
+  // Python
+  "[python]": {
+    "editor.defaultFormatter": null,
+    "editor.tabSize": 4
+    // "editor.codeActionsOnSave": { "source.fixAll": true }
+  },
+  "source.organizeImports": true,
+  "python.formatting.blackArgs": ["--line-length=100"],
+  "python.formatting.provider": "black",
+  "python.pythonPath": ".venv/bin/python",
+  "python.linting.flake8Enabled": true,
+  "python.linting.enabled": true,
+  "python.languageServer": "Pylance",
+  "python.linting.flake8Args": [
+    "--max-line-length=130",
+    "--per-file-ignores=services/backend/utils/qp_mapping.py:E501",
+    "--ignore=E722",
+    "--ignore=W605"
+  ],
+  "editor.wordWrap": "on",
+  // Vim easymotion is required for Jump menu - <SPC> j
+  "vim.easymotion": true,
+  // Use system clipboard for vim
+  "vim.useSystemClipboard": true,
+  // Trigger the main which key menu with in the active editor with vim
+  // This cannot be put into keybindings.json because it will
+  // create conflict with Vim.
+  // https://github.com/stevenguh/spacecode/issues/3
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<space>"],
+      "commands": ["vspacecode.space"]
+    },
+    {
+      "before": [","],
+      "commands": [
+        "vspacecode.space",
+        {
+          "command": "whichkey.triggerKey",
+          "args": "m"
+        }
+      ]
+    }
+  ],
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<space>"],
+      "commands": ["vspacecode.space"]
+    },
+    {
+      "before": [","],
+      "commands": [
+        "vspacecode.space",
+        {
+          "command": "whichkey.triggerKey",
+          "args": "m"
+        }
+      ]
+    }
+  ],
+  "gitlens.views.branches.avatars": false,
+  "gitlens.codeLens.enabled": false,
+  "gitlens.currentLine.enabled": false,
+  //background
+
+  // "background.enabled": true,
+  "background.useDefault": true,
+  "background.customImages": ["/home/armand/Downloads/sentinel-irelia.jpg"],
+  "background.style": {
+    "content": "''",
+    "pointer-events": "none",
+    "position": "absolute",
+    "z-index": "99999",
+    "width": "100%",
+    "height": "100%",
+    "background-position": "center",
+    "background-repeat": "no-repeat",
+    "background-size": "100%,100%",
+    "opacity": 0.1
+  },
+  "files.autoSave": "afterDelay",
+  //workbench
+
+  "workbench.colorCustomizations": {
+    "[One Dark Pro]": {
+      "sideBar.border": "#FFD700",
+      "statusBar.border": "#FFD700",
+      "statusBarItem.hoverBackground": "#FFD700"
+    }
+  },
+  "terminal.integrated.rightClickCopyPaste": true,
+  "workbench.iconTheme": "vscode-icons",
+  "python.defaultInterpreterPath": ".venv/bin/python"
+}
