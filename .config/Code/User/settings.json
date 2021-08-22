@@ -385,5 +385,6 @@
   },
   "terminal.integrated.rightClickCopyPaste": true,
   "workbench.iconTheme": "vscode-icons",
-  "python.defaultInterpreterPath": ".venv/bin/python"
+  "python.defaultInterpreterPath": ".venv/bin/python",
+  "git.autofetch": true
 }
